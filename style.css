@@ -1,0 +1,49 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+
+  .modal-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+.modal-overlay.open-modal{
+    display: block;
+}
+
+.btn.modal-btn{
+    margin: 10px;
+}
+
+.close-btn{
+    margin-top: 30px;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(185, 185, 185);
+    transition: .2s;
+}
+button:hover{
+    background-color: rgb(160, 160, 160);
+    transition: .2s;
+}
